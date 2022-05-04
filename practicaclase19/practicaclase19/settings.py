@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'appPracticaClase19',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'practicaclase19.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['F:/Marian/Documents/Python/Curso_Coderhouse/27620-python/Practica_VSC/MVY_con_git/Practica/practicaclase19/appPracticaClase19/template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
